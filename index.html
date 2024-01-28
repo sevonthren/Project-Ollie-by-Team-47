@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Ollie - Your Friend Bot</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-lugx-gaming.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+team 47
+e:\harvest code\Gaming website\templatemo_589_lugx_gaming (2)\templatemo_589_lugx_gaming\product-details.html
+
+-->
+  </head>
+
+<body background="templatemo_589_lugx_gaming\assets\images\Bg.jpeg">
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        
+                        <img src="assets/images/logo.png" alt="" style="width: 100px;">
+                        
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li><a href="index.html" class="active">Home</a></li>
+                      <li><a href ="product-details.html">About Us </a></li>
+                      <li><a href="contact.html">Contact Us</a></li>                     
+                  </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 align-self-center">
+          <div class="caption header-text">
+            <h4>Ollie greets you! Introduce yourself.... Don't be shy!</h4>
+            <h2>YOUR VIRTUAL BEST FRIEND</h2>
+            
+            <div class="search-input">
+              <form id="search" action="#">
+                
+                
+
+              </form>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <footer>
+    <div class="container">
+      <div class="col-lg-12">
+        <p>Copyright © Team 47 All rights reserved (actually no). &nbsp;&nbsp; <a rel="nofollow" href="" target="_blank">A project of Team 47</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+  
+
+  <script>
+      window.botpressWebChat.init({
+          // Replace <your-bot-id> and <your-client-id> with your actual bot and client IDs
+          "botId": "01ddae19-b76d-4395-b4c7-8ab17d5c72bf",
+          "clientId": "01ddae19-b76d-4395-b4c7-8ab17d5c72bf",
+  
+          // Set the URL for the Botpress WebChat JavaScript file and the messaging server
+          "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
+          "messagingUrl": "https://messaging.botpress.cloud/",
+  
+          // Set the name of the bot that will be displayed in the WebChat interface
+          "botName": "Ollie",
+  
+          // Set the width of the WebChat container and layout to 100% (Full Screen)
+          "stylesheet" : "https://webchat-styler-css.botpress.app/prod/358d7fcb-1cca-418b-81d7-553054ecf1df/v47574/style.css",
+          
+            
+          // Hide the widget and disable animations
+          "hideWidget": true,
+          "disableAnimations": true,
+      });
+  
+      // Opens up the Chatbot by default
+      // This lets users start chatting with the Chatbot without needing to click any buttons or menus.
+      window.botpressWebChat.onEvent(
+          function () {
+              window.botpressWebChat.sendEvent({ type: "show" });
+          },
+          ["LIFECYCLE.LOADED"]
+      );
+  </script>
+  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+  <div class="elfsight-app-3ad6aa00-bcd1-41c9-aaf0-6b1c9d7bb018" data-elfsight-app-lazy></div>
+  </body>
+</html>
+
